@@ -24,7 +24,15 @@ public class Q08 {
 	 */
 
 	public static int[] countValues (int[][] a, int findMe ) {
-		return new int[0]; //fix me
+		int[] counted = new int[a[0].length];
+		for (int i = 0; i < a[0].length; i++){
+			for (int j = 0; j < a.length; j++){
+				if (a[j][i] == findMe){
+					counted[i]++;
+				}
+			}
+		}
+		return counted; //fix me
 	}
 
 	public static void main ( String[] args ) {
@@ -33,7 +41,7 @@ public class Q08 {
 				{3, 4, 1},
 				{1, 7, 7}
 		};
-		int[] answer = countValues(a, 1);
+		int[] answer = countValues(a, 1); // should return [2, 0, 1]
 		for(int i : answer) {
 			System.out.println(i);
 		}
