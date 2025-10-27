@@ -22,4 +22,23 @@ public class Q08 {
 		
 		System .out. println ( select (val1 , 4, 4));
 	}
+
+	/* terminal
+	 * T
+	 * next=4
+	 * E
+	 * R
+	 * next=13
+	 * next=2
+	 * select(val1, 2, 3)
+	 * I
+	 * next=7
+	 * next=1
+	 * select(val1, 1, 2)
+	 * T
+	 * next=4
+	 * E
+	 * 
+	 * 
+	 */
 }

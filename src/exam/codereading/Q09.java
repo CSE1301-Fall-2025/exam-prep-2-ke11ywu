@@ -15,5 +15,10 @@ public class Q09 {
 		//the following:
 		
 		fun(4);
+		/* returns fun(8)
+		 * returns fun(16)
+		 * returns fun(32)
+		 * returns 32
+		*/
 	}
 }
